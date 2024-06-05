@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Insights</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+       
+        <div class="navbar">
+            <div id="title">Tech Insights</div>
+            <a href="javascript:void(0);" class="toggle-button" onclick="toggleMenu()">☰</a>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="categories.html">Categories</a></li>
+                </ul>
+            </div>
+        </div>
+        <script>
+            function toggleMenu() {
+                var x = document.querySelector(".navbar-links");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+        </script>
+    </header>
+
+    <u>
+        <h2 style="text-align: center;">Welcome to My Blog</h2>
+    </u>
+    <p style="text-align: center;">"This is your ultimate source for the latest insights and stories in the world of technology.
+    Here, you'll find expert analysis on cutting-edge innovations, in-depth reviews of the newest gadgets, and practical
+    tips for navigating the digital landscape. I share insights and stories about technology, lifestyle, and travel.
+    Join me as I explore the latest trends, tips, and adventures."
+    </p>
+</body>
+
+</html>
